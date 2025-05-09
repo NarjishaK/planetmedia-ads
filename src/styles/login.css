@@ -1,0 +1,24 @@
+#bg-div{
+  background-color: #efa5b230;
+}
+.mb-44{
+  color: black;
+  text-align: center;
+}
+.pb-4{
+  color: rgb(132, 123, 123);
+  text-align: center;
+}
+
+.btn{
+  background-color: #f4006d;
+    color: white;
+    height: 39px;
+    border-radius: 21px;
+}
+#icon-color{
+  color: #f4006d;
+}
+.main-head{
+  color: #676666;
+}

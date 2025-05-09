@@ -1,0 +1,44 @@
+.list-group-item {
+    border: none;
+    padding: 15px 15px;
+    margin: 8px 0px;
+    font-weight: 500;
+  }
+  
+  .list-group-item.active {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+  }
+  
+  .card img {
+    border-radius: 12px;
+  }
+  #myaccount{
+    padding-inline: 15px;
+    padding-top: 25px;
+  }
+  .pb-44{
+    color: rgb(99, 97, 97);
+    text-align: center;
+  }
+  #edit-btn{
+  border-color:  rgb(153, 143, 143);
+  background-color: #fff;
+  color: rgb(132, 115, 115);
+  height: 39px;
+  border-radius: 21px;
+  }
+  .time{
+    color: #5858afeb;
+    font-weight: 500;
+    font-size: smaller;
+  }
+
+  #price{
+    color: #f4006d;
+    font-weight: 700;
+  }
+  .small-text{
+    color: #f4006d;
+  }
