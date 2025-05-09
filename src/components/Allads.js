@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // import img from "../images/banner.png";
 import "../styles/login.css";
+import { Link } from "react-router-dom";
 
 const AllAds = () => {
     const img ="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1"
@@ -22,16 +23,17 @@ const AllAds = () => {
         <div className="row">
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
@@ -43,16 +45,17 @@ const AllAds = () => {
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
@@ -64,16 +67,17 @@ const AllAds = () => {
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
@@ -85,16 +89,17 @@ const AllAds = () => {
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
@@ -106,16 +111,17 @@ const AllAds = () => {
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
@@ -127,16 +133,17 @@ const AllAds = () => {
           </div>
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div className="card h-100">
-              <img className="card-img-top" src={img} alt="Card image cap" />
+            <Link to={"/addetails"} className="text-decoration-none text-black">
+              <img className="card-img-top" src={img} alt="Card image cap" /></Link>
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center">
                   <small className="text-muted">Paris</small>
                   <small className="text-muted">1 day ago</small>
                 </div>
                 <br />
-                <h6 className="card-title">
-                  This is a wider card with supporting text below.
-                </h6>
+                <Link to={"/addetails"} className="text-decoration-none text-black"><h6 className="card-title">
+                  This is a wider card with supporting text below.   </h6></Link>
+             
                 <div className="d-flex justify-content-between align-items-center">
                   <b className="price" id="icon-color">
                     $499
