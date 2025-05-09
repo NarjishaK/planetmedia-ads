@@ -7,6 +7,7 @@ import AllAds from "./myaccount/allads";
 import PostAds from "./myaccount/postads";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 const ProfilePage = () => {
   const [activePage, setActivePage] = useState("myaccount");
@@ -31,7 +32,7 @@ const ProfilePage = () => {
         {/* Breadcrumb */}
         <nav className="mb-3">
           <ol className="breadcrumb bg-transparent p-0">
-            <li className="breadcrumb-item">Home</li>
+            <li className="breadcrumb-item"><Link to={"/home"} className="text-decoration-none text-black"> Home</Link></li>
             <li className="breadcrumb-item active">My Profile</li>
           </ol>
         </nav>
