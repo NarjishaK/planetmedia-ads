@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import logo from "../images/logo.png";
+import logo from "../images/blacklogo.png";
 import "../styles/login.css";
 import { Link } from "react-router-dom";
 
@@ -17,15 +17,19 @@ const Footer = () => {
           style={{ marginTop: "20px" }}
         >
           <i
-            class="bi bi-person"
+            class="bi bi-facebook"
             style={{ color: "gray", marginRight: "10px" }}
           ></i>
           <i
-            class="bi bi-person"
+            class="bi bi-twitter"
             style={{ color: "gray", marginRight: "10px" }}
           ></i>
           <i
-            class="bi bi-person"
+            class="bi bi-behance"
+            style={{ color: "gray", marginRight: "10px" }}
+          ></i>
+          <i
+            class="bi bi-youtube"
             style={{ color: "gray", marginRight: "10px" }}
           ></i>
         </div>
