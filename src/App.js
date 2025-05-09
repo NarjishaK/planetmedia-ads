@@ -15,7 +15,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/myaccount" element={<Myaccount />} />
       <Route path="/addetails" element={<Adview />} />
-      <Route path="/banner" element={<Banner />} />
+      <Route path="/home" element={<Banner />} />
     </Routes>
   </Router>
   );

@@ -66,8 +66,12 @@ function App() {
               <button
                 className="btn btn-outline-danger"
                 style={{ width: "100%" }}
-              >
+              ><Link
+              to={"/home"}
+              className="text-decoration-none text-white"
+            >
                 Login
+                </Link>
               </button>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-function Mypage() {
+function Profile() {
   return (
     <div className="col-md-8">
       <div className="card p-4 mb-4 shadow-sm border-0">
@@ -93,4 +93,4 @@ function Mypage() {
     </div>
   );
 }
-export default Mypage;
+export default Profile;
