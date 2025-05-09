@@ -17,7 +17,7 @@ const Navbar = () => {
         <small style={{marginRight:"5px"}}> <i class="bi bi-person" style={{color:"gray"}}></i>Sign In</small>{" "}
           <button className="btn btn-outline-danger">
             &nbsp;{" "}
-            <Link to={"/register"} className="text-decoration-none text-white">
+            <Link to={"/myaccount"} className="text-decoration-none text-white">
               Post Your Ad <i class="bi bi-arrow-right"></i>
             </Link>
           </button>
